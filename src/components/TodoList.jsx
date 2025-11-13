@@ -18,6 +18,7 @@ export default function TodoList({ tasks, onToggle, onDelete }) {
           >
             {task.text}
           </span>
+          
           <button
             className="btn btn-sm btn-danger"
             onClick={() => onDelete(task.id)}
