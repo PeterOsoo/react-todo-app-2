@@ -34,6 +34,9 @@ export default function App() {
     return true; // all
   });
 
+  const activeCount = tasks.filter(task => !task.completed).length;
+
+
   return (
     <div className="container my-5">
       <div className="card shadow">
@@ -63,6 +66,11 @@ export default function App() {
               Completed
             </button>
           </div>
+
+          <p className="text-center text-secondary mb-3">
+            {activeCount} task{activeCount !== 1 ? "s" : ""} remaining
+          </p>
+
 
           <TodoList tasks={filteredTasks} onToggle={toggleTask} onDelete={deleteTask} />
         </div>
