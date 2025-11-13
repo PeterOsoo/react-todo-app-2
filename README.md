@@ -1,16 +1,39 @@
-# React + Vite
+# React To-Do App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.4.0-green?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-purple?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-Currently, two official plugins are available:
+A simple **To-Do application** built with **React**, **Vite**, and **Bootstrap 5**.  
+Add, edit, complete, and delete tasks with persistent storage via `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new tasks  
+- Edit tasks inline (double-click to edit)  
+- Mark tasks as completed / toggle status  
+- Delete tasks  
+- Filter tasks: All / Active / Completed  
+- Task counter showing remaining tasks  
+- Fully responsive design with **Bootstrap 5**  
+- Tasks persist across browser reloads using `localStorage`
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Tech Stack
+
+- **React** – UI library  
+- **Vite** – Fast development and build tool  
+- **Bootstrap 5** – Styling and responsive design  
+- **localStorage** – Persistent data storage
+
+---
+
+## 🎨 Usage
+
+Clone the repository:  
+```bash
+git clone https://github.com/PeterOsoo/react-todo-app-2.git
